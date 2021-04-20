@@ -640,6 +640,8 @@ a block. A block may also be used in cases where the right-hand side is a macro 
 
 The body of a block arm should be block indented once.
 
+An empty match arm should be written as `pattern => {}`.
+
 Examples:
 
 ```rust
